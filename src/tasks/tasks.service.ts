@@ -26,7 +26,10 @@ export class TasksService {
         }
         this.task.push(mytask);
 
-        return this.task;
+        return this.task; 
+    }
+
+    DeleteTask(id: string){
         
     }
 }
